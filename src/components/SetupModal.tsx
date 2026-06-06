@@ -12,9 +12,9 @@ const SETUP_GUIDES: Record<string, { url: string; steps: string[] }> = {
   facebook: {
     url: "https://developers.facebook.com/apps/",
     steps: [
-      "Go to Meta for Developers and create an app",
-      "Add Facebook Login product",
-      "Set redirect URI: {baseUrl}/api/oauth/callback/facebook",
+      "Go to your app → Add Product → add 'Facebook Login for Business'",
+      "Under Facebook Login → Settings, set Redirect URI: {baseUrl}/api/oauth/callback/facebook",
+      "Under App Review → Permissions, enable: public_profile, pages_show_list, pages_read_engagement",
       "Copy App ID → FACEBOOK_CLIENT_ID",
       "Copy App Secret → FACEBOOK_CLIENT_SECRET",
     ],

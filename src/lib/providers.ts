@@ -27,7 +27,7 @@ export const PROVIDERS: OAuthProvider[] = [
     icon: "facebook",
     authUrl: "https://www.facebook.com/v19.0/dialog/oauth",
     tokenUrl: "https://graph.facebook.com/v19.0/oauth/access_token",
-    scopes: ["email", "public_profile", "pages_show_list", "pages_read_engagement"],
+    scopes: ["public_profile", "pages_show_list", "pages_read_engagement"],
     scopeSeparator: ",",
     supportsRefresh: false,
     tokenExpiry: "60 days",
